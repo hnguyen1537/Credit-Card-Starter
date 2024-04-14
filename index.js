@@ -3,18 +3,23 @@ function bankAccount(firstName, lastName) {
   return {
     getAccountName: function () {
       // TODO: Return a string of '<firstName> <lastName'.
+       return firstName + ' ' + lastName;
+
     },
 
     addCredits: function (credits) {
       // TODO: Increase the balance by the given credits.
+        return balance = balance + credits;
     },
 
     deduct: function (credits) {
       // TODO: Decrease the balance by the given credits.
+       return balance = balance - credits;
     },
 
     getBalance: function () {
       // Returns the current balance.
+        return balance;
     },
   };
 }
